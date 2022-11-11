@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Quantum statistical mechanics - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"f68387d3-fb7e-48b6-a8de-de6308afe752","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Quantum_statistical_mechanics","wgTitle":"Quantum statistical mechanics","wgCurRevisionId":1082997507,"wgRevisionId":1082997507,"wgArticleId":712450,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Quantum_statistical_mechanics","wgRelevantArticleId":712450,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{
+"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFMode":"stable","wgMFAmc":false,"wgMFAmcOutreachActive":false,"wgMFAmcOutreachUserEligible":false,"wgMFLazyLoadImages":true,"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgMFIsPageContentModelEditable":true,"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":8000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgSectionTranslationTargetLanguages":["am","as","ast","ay","az","ba","bcl","bg","bho","bm","bn","bs","ceb","ckb","cs","cy","dv","ee","el","eo","et","eu","fa","gl","gn","gom","gu","ha","haw","he","hr","ht","hy","ig","ilo","is","jv","kg","km","kn","ko","ku","lg","ln","lt","lv","mai","mi","mk","ml","mn","mni","mr","ms","mt","my","ne","nso","oc","om","or",
+"pa","ps","qu","ro","sa","si","sl","sn","so","sq","sr","ss","su","sw","ta","te","th","ti","tl","tn","tr","ts","tw","ur","uz","wo","xh","yo","zu"],"wgCentralAuthMobileDomain":true,"wgSectionTranslationMissingLanguages":[{"lang":"am","autonym":"አማርኛ","dir":"ltr"},{"lang":"as","autonym":"অসমীয়া","dir":"ltr"},{"lang":"ast","autonym":"asturianu","dir":"ltr"},{"lang":"ay","autonym":"Aymar aru","dir":"ltr"},{"lang":"az","autonym":"azərbaycanca","dir":"ltr"},{"lang":"ba","autonym":"башҡортса","dir":"ltr"},{"lang":"bcl","autonym":"Bikol Central","dir":"ltr"},{"lang":"bg","autonym":"български","dir":"ltr"},{"lang":"bho","autonym":"भोजपुरी","dir":"ltr"},{"lang":"bm","autonym":"bamanankan","dir":"ltr"},{"lang":"bn","autonym":"বাংলা","dir":"ltr"},{"lang":"bs","autonym":"bosanski","dir":"ltr"},{"lang":"ceb","autonym":"Cebuano","dir":"ltr"},{"lang":"ckb","autonym":"کوردی","dir":"rtl"},{"lang":"cs","autonym":"čeština","dir":"ltr"
+},{"lang":"cy","autonym":"Cymraeg","dir":"ltr"},{"lang":"dv","autonym":"ދިވެހިބަސް","dir":"rtl"},{"lang":"ee","autonym":"eʋegbe","dir":"ltr"},{"lang":"el","autonym":"Ελληνικά","dir":"ltr"},{"lang":"eo","autonym":"Esperanto","dir":"ltr"},{"lang":"et","autonym":"eesti","dir":"ltr"},{"lang":"eu","autonym":"euskara","dir":"ltr"},{"lang":"gl","autonym":"galego","dir":"ltr"},{"lang":"gn","autonym":"Avañe'ẽ","dir":"ltr"},{"lang":"gom","autonym":"गोंयची कोंकणी / Gõychi Konknni","dir":"ltr"},{"lang":"gu","autonym":"ગુજરાતી","dir":"ltr"},{"lang":"ha","autonym":"Hausa","dir":"ltr"},{"lang":"haw","autonym":"Hawaiʻi","dir":"ltr"},{"lang":"he","autonym":"עברית","dir":"rtl"},{"lang":"hr","autonym":"hrvatski","dir":"ltr"},{"lang":"ht","autonym":"Kreyòl ayisyen","dir":"ltr"},{"lang":"hy","autonym":"հայերեն","dir":"ltr"},{"lang":"ig","autonym":"Igbo","dir":"ltr"},{"lang":"ilo","autonym":"Ilokano","dir":"ltr"},{"lang":"is",
+"autonym":"íslenska","dir":"ltr"},{"lang":"jv","autonym":"Jawa","dir":"ltr"},{"lang":"kg","autonym":"Kongo","dir":"ltr"},{"lang":"km","autonym":"ភាសាខ្មែរ","dir":"ltr"},{"lang":"kn","autonym":"ಕನ್ನಡ","dir":"ltr"},{"lang":"ku","autonym":"Kurdî/کوردی","dir":"ltr"},{"lang":"lg","autonym":"Luganda","dir":"ltr"},{"lang":"ln","autonym":"lingála","dir":"ltr"},{"lang":"lt","autonym":"lietuvių","dir":"ltr"},{"lang":"lv","autonym":"latviešu","dir":"ltr"},{"lang":"mai","autonym":"मैथिली","dir":"ltr"},{"lang":"mi","autonym":"Māori","dir":"ltr"},{"lang":"mk","autonym":"македонски","dir":"ltr"},{"lang":"ml","autonym":"മലയാളം","dir":"ltr"},{"lang":"mn","autonym":"монгол","dir":"ltr"},{"lang":"mni","autonym":"ꯃꯤꯇꯩ ꯂꯣꯟ","dir":"ltr"},{"lang":"mr","autonym":"मराठी","dir":"ltr"},{"lang":"ms","autonym":"Bahasa Melayu","dir":"ltr"},{"lang":"mt","autonym":"Malti","dir":"ltr"},{"lang":"my","autonym":
+"မြန်မာဘာသာ","dir":"ltr"},{"lang":"ne","autonym":"नेपाली","dir":"ltr"},{"lang":"nso","autonym":"Sesotho sa Leboa","dir":"ltr"},{"lang":"oc","autonym":"occitan","dir":"ltr"},{"lang":"om","autonym":"Oromoo","dir":"ltr"},{"lang":"or","autonym":"ଓଡ଼ିଆ","dir":"ltr"},{"lang":"ps","autonym":"پښتو","dir":"rtl"},{"lang":"qu","autonym":"Runa Simi","dir":"ltr"},{"lang":"ro","autonym":"română","dir":"ltr"},{"lang":"sa","autonym":"संस्कृतम्","dir":"ltr"},{"lang":"si","autonym":"සිංහල","dir":"ltr"},{"lang":"sn","autonym":"chiShona","dir":"ltr"},{"lang":"so","autonym":"Soomaaliga","dir":"ltr"},{"lang":"sq","autonym":"shqip","dir":"ltr"},{"lang":"sr","autonym":"Ћир./lat.","dir":"ltr"},{"lang":"ss","autonym":"SiSwati","dir":"ltr"},{"lang":"su","autonym":"Sunda","dir":"ltr"},{"lang":"sw","autonym":"Kiswahili","dir":"ltr"},{"lang":"ta","autonym":"தமிழ்","dir":"ltr"},{"lang":"te","autonym":"తెలుగు","dir":
+"ltr"},{"lang":"th","autonym":"ไทย","dir":"ltr"},{"lang":"ti","autonym":"ትግርኛ","dir":"ltr"},{"lang":"tl","autonym":"Tagalog","dir":"ltr"},{"lang":"tn","autonym":"Setswana","dir":"ltr"},{"lang":"tr","autonym":"Türkçe","dir":"ltr"},{"lang":"ts","autonym":"Xitsonga","dir":"ltr"},{"lang":"tw","autonym":"Twi","dir":"ltr"},{"lang":"ur","autonym":"اردو","dir":"rtl"},{"lang":"uz","autonym":"uz","dir":"ltr"},{"lang":"wo","autonym":"Wolof","dir":"ltr"},{"lang":"xh","autonym":"isiXhosa","dir":"ltr"},{"lang":"yo","autonym":"Yorùbá","dir":"ltr"},{"lang":"zu","autonym":"isiZulu","dir":"ltr"}],"wgWikibaseItemId":"Q845260","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgMinervaPermissions":{"watch":true,"talk":true},"wgMinervaFeatures":{"beta":false,"donate":true,"mobileOptionsLink":true,"categories":false,"pageIssues":true,"talkAtTop":true,"historyInPageActions":false,"overflowSubmenu":
+false,"tabsOnSpecials":true,"personalMenu":false,"mainMenuExpanded":false,"simplifiedTalk":true},"wgMinervaDownloadNamespaces":[0]};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.categoryTree.styles":"ready","skins.minerva.base.styles":"ready","skins.minerva.content.styles.images":"ready","mediawiki.hlist":"ready","mediawiki.ui.icon":"ready","mediawiki.ui.button":"ready","skins.minerva.icons.wikimedia":"ready","skins.minerva.mainMenu.icons":"ready","skins.minerva.mainMenu.styles":"ready","skins.minerva.amc.styles":"ready","mobile.init.styles":"ready","ext.relatedArticles.styles":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.categoryTree","site","mediawiki.page.ready","skins.minerva.scripts","mobile.init","ext.relatedArticles.readMore.bootstrap","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.cx.entrypoints.languagesearcher.init","mw.externalguidance.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.EditNoticesOnMobile","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.cx.entrypoints.mffrequentlanguages","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.categoryTree.styles%7Cext.math.styles%7Cext.relatedArticles.styles%7Cext.wikimediaBadges%7Cmediawiki.hlist%7Cmediawiki.ui.button%2Cicon%7Cmobile.init.styles%7Cskins.minerva.amc.styles%7Cskins.minerva.base.styles%7Cskins.minerva.content.styles.images%7Cskins.minerva.icons.wikimedia%7Cskins.minerva.mainMenu.icons%2Cstyles&amp;only=styles&amp;skin=minerva"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=minerva&amp;target=mobile"></script>
+<meta name="generator" content="MediaWiki 1.40.0-wmf.8"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="max-image-preview:standard"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="theme-color" content="#eaecf0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0"/>
+<meta property="og:title" content="Quantum statistical mechanics - Wikipedia"/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="//upload.wikimedia.org"/>
+<link rel="manifest" href="/w/api.php?action=webapp-manifest"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Quantum_statistical_mechanics"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Quantum_statistical_mechanics rootpage-Quantum_statistical_mechanics stable issues-group-B skin-minerva action-view skin--responsive mw-mf-amc-disabled mw-mf"><div id="mw-mf-viewport">
+	<div id="mw-mf-page-center">
+		<a class="mw-mf-page-center__mask" href="#"></a>
+		
+		<header class="header-container header-chrome">
+			<div class="minerva-header">
+				<nav class="navigation-drawer toggle-list view-border-box">
+					<input type="checkbox" id="main-menu-input" class="toggle-list__checkbox" role="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="mw-mf-main-menu-button">
+					<label for="main-menu-input" id="mw-mf-main-menu-button" aria-hidden="true"
+						class=" mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-menu-base20 mw-ui-icon-flush-left toggle-list__toggle"
+						title="Open main menu" data-event-name="ui.mainmenu">Open main menu</label>
+					<div id="mw-mf-page-left" class="menu toggle-list__list view-border-box">
+	<ul id="p-navigation">
+			<li class="">
+			    <a href="/wiki/Main_Page" class="menu__item--home"
+				   data-mw="interface" data-event-name="">
+			      <span class="mw-ui-icon-minerva-home mw-ui-icon"></span><span>Home</span>
+			     </a>
+			</li>
+			<li class="">
+			    <a href="/wiki/Special:Random" class="menu__item--random"
+				   data-mw="interface" data-event-name="">
+			      <span class="mw-ui-icon-minerva-die mw-ui-icon"></span><span>Random</span>
+			     </a>
+			</li>
+			<li class="jsonly">
+			    <a href="/wiki/Special:Nearby" class="menu__item--nearby"
+				   data-mw="interface" data-event-name="menu.nearby">
+			      <span class="mw-ui-icon-minerva-mapPin mw-ui-icon"></span><span>Nearby</span>
+			     </a>
+			</li>
+	</ul>
+	<ul id="p-personal">
+			<li class="">
+			    <a href="/w/index.php?title=Special:UserLogin&amp;returnto=Quantum+statistical+mechanics" class="menu__item--login"
+				   data-mw="interface" data-event-name="">
+			      <span class="mw-ui-icon-minerva-logIn mw-ui-icon"></span><span>Log in</span>
+			     </a>
+			</li>
+	</ul>
+	<ul id="pt-preferences">
+			<li class="jsonly">
+			    <a href="/w/index.php?title=Special:MobileOptions&amp;returnto=Quantum+statistical+mechanics" class="menu__item--settings"
+				   data-mw="interface" data-event-name="menu.settings">
+			      <span class="mw-ui-icon-minerva-settings mw-ui-icon"></span><span>Settings</span>
+			     </a>
+			</li>
+	</ul>
+	<ul id="p-donation">
+			<li class="">
+			    <a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en&amp;utm_key=minerva" class="menu__item--donate"
+				   data-mw="interface" data-event-name="menu.donate">
+			      <span class="mw-ui-icon-minerva-heart mw-ui-icon"></span><span>Donate</span>
+			     </a>
+			</li>
+	</ul>
+	<ul class="hlist">
+			<li class="">
+			    <a href="/wiki/Wikipedia:About" class="menu__item--about"
+				   data-mw="interface" data-event-name="">
+			      <span class="mw-ui-icon-minerva-about mw-ui-icon"></span><span>About Wikipedia</span>
+			     </a>
+			</li>
+			<li class="">
+			    <a href="/wiki/Wikipedia:General_disclaimer" class="menu__item--disclaimers"
+				   data-mw="interface" data-event-name="">
+			      <span class="mw-ui-icon-minerva-disclaimers mw-ui-icon"></span><span>Disclaimers</span>
+			     </a>
+			</li>
+	</ul>
+</div>
+
+					<label class="main-menu-mask" for="main-menu-input"></label>
+				</nav>
+				<div class="branding-box">
+					<a href="/wiki/Main_Page">
+						<span><img src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="Wikipedia" width="120" height="18"
+	style="width: 7.5em; height: 1.125em;"/>
+
+</span>
+						
+					</a>
+				</div>
+					<form action="/w/index.php" method="get" class="minerva-search-form">
+				<div class="search-box">
+					<input type="hidden" name="title" value="Special:Search"/>
+					<input class="search mw-ui-background-icon-search skin-minerva-search-trigger" type="search" name="search" id="searchInput"
+						 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f"">
+				</div>
+				<button id="searchIcon" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search-base20 skin-minerva-search-trigger mw-ui-button mw-ui-quiet">Search</button>
+			</form>
+		<nav class="minerva-user-navigation" aria-label="User navigation">
+					
+				</nav>
+			</div>
+		</header>
+		<main id="content" class="mw-body">
+			<div class="banner-container">
+			<div id="siteNotice"></div>
+			</div>
+			
+			<div class="pre-content heading-holder">
+				<div class="page-heading">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Quantum statistical mechanics</span></h1>
+					<div class="tagline"></div>
+				</div>
+					<div class="minerva__tab-container">
+							<a href="/wiki/Quantum_statistical_mechanics" rel="" class="minerva__tab selected" data-event-name="tabs.subject">Article</a>
+							<a href="/wiki/Talk:Quantum_statistical_mechanics" rel="discussion" class="minerva__tab " data-event-name="tabs.talk">Talk</a>
+					</div>
+				<nav class="page-actions-menu">
+	<ul id="page-actions" class="page-actions-menu__list">
+		<li id="language-selector" class="page-actions-menu__list-item">
+				<a id="" href="/wiki/Special:MobileLanguages/Quantum_statistical_mechanics" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-language-base20 mw-ui-button mw-ui-quiet mw-ui-icon-with-label-desktop mw-ui-button mw-ui-quiet  language-selector"
+					data-mw="interface"
+					data-event-name="menu.languages" role="button" title="Language">Language</a>
+		</li>
+		<li id="page-actions-watch" class="page-actions-menu__list-item">
+				<a id="ca-watch" href="/w/index.php?title=Special:UserLogin&amp;returnto=Quantum+statistical+mechanics" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-star-base20 mw-ui-icon-with-label-desktop watch-this-article mw-ui-button mw-ui-quiet mw-watchlink menu__item--page-actions-watch"
+					data-mw="interface"
+					data-event-name="menu.watch" role="button" title="Watch">Watch</a>
+		</li>
+		<li id="page-actions-edit" class="page-actions-menu__list-item">
+				<a id="ca-edit" href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=0" class="edit-page menu__item--page-actions-edit mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 mw-ui-icon-with-label-desktop mw-ui-button mw-ui-quiet"
+					data-mw="interface"
+					data-event-name="menu.edit" role="button" title="Edit the lead section of this page">Edit</a>
+		</li>
+	</ul>
+</nav>
+<!-- version 1.0.2 (change every time you update a partial) -->
+				
+				<div class="minerva__subtitle"></div>
+			</div>
+			<div id="bodyContent" class="content">
+				<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><script>function mfTempOpenSection(id){var block=document.getElementById("mf-section-"+id);block.className+=" open-block";block.previousSibling.className+=" open-block";}</script><div class="mw-parser-output"><section class="mf-section-0" id="mf-section-0"><style data-mw-deduplicate="TemplateStyles:r1045330069">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:720px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}</style><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1045330069"><p><b>Quantum statistical mechanics</b> is <a href="/wiki/Statistical_mechanics" title="Statistical mechanics">statistical mechanics</a> applied to <a href="/wiki/Quantum_mechanics" title="Quantum mechanics">quantum mechanical systems</a>. In quantum mechanics a <a href="/wiki/Statistical_ensemble_(mathematical_physics)" class="mw-redirect" title="Statistical ensemble (mathematical physics)">statistical ensemble</a> (probability distribution over possible <a href="/wiki/Quantum_state" title="Quantum state">quantum states</a>) is described by a <a href="/wiki/Density_matrix" title="Density matrix">density operator</a> <i>S</i>, which is a non-negative, <a href="/wiki/Self-adjoint" title="Self-adjoint">self-adjoint</a>, <a href="/wiki/Trace-class" class="mw-redirect" title="Trace-class">trace-class</a> operator of trace 1 on the <a href="/wiki/Hilbert_space" title="Hilbert space">Hilbert space</a> <i>H</i> describing the quantum system.  This can be shown under various <a href="/wiki/Mathematical_formulation_of_quantum_mechanics" title="Mathematical formulation of quantum mechanics">mathematical formalisms for quantum mechanics</a>.  One such formalism is provided by <a href="/wiki/Quantum_logic" title="Quantum logic">quantum logic</a>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none"><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul><li class="toclevel-1 tocsection-1"><a href="#Expectation"><span class="tocnumber">1</span> <span class="toctext">Expectation</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Von_Neumann_entropy"><span class="tocnumber">2</span> <span class="toctext">Von Neumann entropy</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Gibbs_canonical_ensemble"><span class="tocnumber">3</span> <span class="toctext">Gibbs canonical ensemble</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Grand_canonical_ensemble"><span class="tocnumber">4</span> <span class="toctext">Grand canonical ensemble</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+</ul></div>
+
+</section><h2 class="section-heading" onclick="mfTempOpenSection(1)"><div class="mw-ui-icon mw-ui-icon-element indicator mw-ui-icon-small mw-ui-icon-flush-left mw-ui-button mw-ui-quiet"></div><span class="mw-headline" id="Expectation">Expectation</span><span class="mw-editsection"><a href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=1" title="Edit section: Expectation" data-section="1" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 edit-page mw-ui-icon-flush-right mw-ui-button mw-ui-quiet">Edit</a></span></h2><section class="mf-section-1 collapsible-block" id="mf-section-1">
+<p>From classical probability theory, we know that the <a href="/wiki/Expected_value" title="Expected value">expectation</a> of a <a href="/wiki/Random_variable" title="Random variable">random variable</a> <i>X</i> is defined by its <a href="/wiki/Probability_distribution" title="Probability distribution">distribution</a> D<sub><i>X</i></sub> by
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \mathbb {E} (X)=\int _{\mathbb {R} }\lambda \,d\,\operatorname {D} _{X}(\lambda )}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">E</mi>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>X</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <msub>
+          <mo>∫<!-- ∫ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="double-struck">R</mi>
+            </mrow>
+          </mrow>
+        </msub>
+        <mi>λ<!-- λ --></mi>
+        <mspace width="thinmathspace"></mspace>
+        <mi>d</mi>
+        <mspace width="thinmathspace"></mspace>
+        <msub>
+          <mi mathvariant="normal">D</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>X</mi>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>λ<!-- λ --></mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {E} (X)=\int _{\mathbb {R} }\lambda \,d\,\operatorname {D} _{X}(\lambda )}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fb12e573f6799aea22a0e701acee7723a6de4e99" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.338ex; width:21.841ex; height:5.676ex;" alt=" \mathbb{E}(X) = \int_\mathbb{R} \lambda \, d \, \operatorname{D}_X(\lambda) "></noscript><span class="lazy-image-placeholder" style="width: 21.841ex;height: 5.676ex;vertical-align: -2.338ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fb12e573f6799aea22a0e701acee7723a6de4e99" data-alt=" \mathbb{E}(X) = \int_\mathbb{R} \lambda \, d \, \operatorname{D}_X(\lambda) " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>assuming, of course, that the random variable is <a href="/wiki/Integrable" class="mw-redirect" title="Integrable">integrable</a> or that the random variable is non-negative. Similarly, let <i>A</i> be an <a href="/wiki/Observable" title="Observable">observable</a> of a quantum mechanical system. <i>A</i> is given by a densely defined self-adjoint operator on <i>H</i>.  The <a href="/wiki/Spectral_measure" class="mw-redirect" title="Spectral measure">spectral measure</a> of <i>A</i> defined by
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {E} _{A}(U)=\int _{U}\lambda d\operatorname {E} (\lambda ),}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi mathvariant="normal">E</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>U</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <msub>
+          <mo>∫<!-- ∫ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>U</mi>
+          </mrow>
+        </msub>
+        <mi>λ<!-- λ --></mi>
+        <mi>d</mi>
+        <mi mathvariant="normal">E</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>λ<!-- λ --></mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {E} _{A}(U)=\int _{U}\lambda d\operatorname {E} (\lambda ),}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ee347cf662eedd182da0a036de183a7a4f087cf1" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.338ex; width:21.263ex; height:5.676ex;" alt="\operatorname {E} _{A}(U)=\int _{U}\lambda d\operatorname {E} (\lambda ),"></noscript><span class="lazy-image-placeholder" style="width: 21.263ex;height: 5.676ex;vertical-align: -2.338ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ee347cf662eedd182da0a036de183a7a4f087cf1" data-alt="\operatorname {E} _{A}(U)=\int _{U}\lambda d\operatorname {E} (\lambda )," data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>uniquely determines <i>A</i> and conversely, is uniquely determined by <i>A</i>.  E<sub><i>A</i></sub>  is a boolean homomorphism from the Borel subsets of <b>R</b> into the lattice <i>Q</i> of self-adjoint projections of <i>H</i>. In analogy with probability theory, given a state <i>S</i>, we introduce the <i>distribution</i> of <i>A</i>  under <i>S</i> which is the probability measure defined on the Borel subsets of <b>R</b> by
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {D} _{A}(U)=\operatorname {Tr} (\operatorname {E} _{A}(U)S).}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi mathvariant="normal">D</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>U</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi mathvariant="normal">E</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>U</mi>
+        <mo stretchy="false">)</mo>
+        <mi>S</mi>
+        <mo stretchy="false">)</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {D} _{A}(U)=\operatorname {Tr} (\operatorname {E} _{A}(U)S).}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9b3bf1dd472b1ff320ad95f48da9895acab79bce" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:23.115ex; height:2.843ex;" alt=" \operatorname{D}_A(U) = \operatorname{Tr}(\operatorname{E}_A(U) S). "></noscript><span class="lazy-image-placeholder" style="width: 23.115ex;height: 2.843ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9b3bf1dd472b1ff320ad95f48da9895acab79bce" data-alt=" \operatorname{D}_A(U) = \operatorname{Tr}(\operatorname{E}_A(U) S). " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>Similarly, the expected value of <i>A</i> is defined in terms of the probability distribution D<sub><i>A</i></sub> by
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \mathbb {E} (A)=\int _{\mathbb {R} }\lambda \,d\,\operatorname {D} _{A}(\lambda ).}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">E</mi>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <msub>
+          <mo>∫<!-- ∫ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="double-struck">R</mi>
+            </mrow>
+          </mrow>
+        </msub>
+        <mi>λ<!-- λ --></mi>
+        <mspace width="thinmathspace"></mspace>
+        <mi>d</mi>
+        <mspace width="thinmathspace"></mspace>
+        <msub>
+          <mi mathvariant="normal">D</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>A</mi>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>λ<!-- λ --></mi>
+        <mo stretchy="false">)</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {E} (A)=\int _{\mathbb {R} }\lambda \,d\,\operatorname {D} _{A}(\lambda ).}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/59e8ed330087a7ddda5604595212cf54a6245077" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.338ex; width:22.084ex; height:5.676ex;" alt=" \mathbb{E}(A) = \int_\mathbb{R} \lambda \, d \, \operatorname{D}_A(\lambda)."></noscript><span class="lazy-image-placeholder" style="width: 22.084ex;height: 5.676ex;vertical-align: -2.338ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/59e8ed330087a7ddda5604595212cf54a6245077" data-alt=" \mathbb{E}(A) = \int_\mathbb{R} \lambda \, d \, \operatorname{D}_A(\lambda)." data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>Note that this expectation is relative to the  mixed state <i>S</i> which is used in the definition of D<sub><i>A</i></sub>.
+</p><p><b>Remark</b>.  For technical reasons, one needs to consider separately the positive and negative parts of <i>A</i> defined by the <a href="/wiki/Borel_functional_calculus" title="Borel functional calculus">Borel functional calculus</a> for unbounded operators.
+</p><p>One can easily show:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \mathbb {E} (A)=\operatorname {Tr} (AS)=\operatorname {Tr} (SA).}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">E</mi>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mi>S</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>S</mi>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {E} (A)=\operatorname {Tr} (AS)=\operatorname {Tr} (SA).}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6df53d62b6519075a66e69410c1220c05f582c5c" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:27.229ex; height:2.843ex;" alt=" \mathbb{E}(A)  = \operatorname{Tr}(A S) = \operatorname{Tr}(S A). "></noscript><span class="lazy-image-placeholder" style="width: 27.229ex;height: 2.843ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6df53d62b6519075a66e69410c1220c05f582c5c" data-alt=" \mathbb{E}(A)  = \operatorname{Tr}(A S) = \operatorname{Tr}(S A). " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>Note that if <i>S</i> is a <a href="/wiki/Pure_state" class="mw-redirect" title="Pure state">pure state</a> corresponding to the <a href="/wiki/Euclidean_vector" title="Euclidean vector">vector</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \psi }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>ψ<!-- ψ --></mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \psi }</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/45e5789e5d9c8f7c79744f43ecaaf8ba42a8553a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:1.513ex; height:2.509ex;" alt="\psi "></noscript><span class="lazy-image-placeholder" style="width: 1.513ex;height: 2.509ex;vertical-align: -0.671ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/45e5789e5d9c8f7c79744f43ecaaf8ba42a8553a" data-alt="\psi " data-class="mwe-math-fallback-image-inline"> </span></span>, then:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \mathbb {E} (A)=\langle \psi |A|\psi \rangle .}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">E</mi>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo fence="false" stretchy="false">⟨<!-- ⟨ --></mo>
+        <mi>ψ<!-- ψ --></mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mi>A</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mi>ψ<!-- ψ --></mi>
+        <mo fence="false" stretchy="false">⟩<!-- ⟩ --></mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {E} (A)=\langle \psi |A|\psi \rangle .}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4dc8190f14e277a4bc1c2de6da2abd029ff4760f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:16.72ex; height:2.843ex;" alt=" \mathbb{E}(A) = \langle \psi | A | \psi \rangle. "></noscript><span class="lazy-image-placeholder" style="width: 16.72ex;height: 2.843ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4dc8190f14e277a4bc1c2de6da2abd029ff4760f" data-alt=" \mathbb{E}(A) = \langle \psi | A | \psi \rangle. " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>The trace of an operator A is written as follows:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {Tr} (A)=\sum _{m}\langle m|A|m\rangle .}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <munder>
+          <mo>∑<!-- ∑ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>m</mi>
+          </mrow>
+        </munder>
+        <mo fence="false" stretchy="false">⟨<!-- ⟨ --></mo>
+        <mi>m</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mi>A</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mi>m</mi>
+        <mo fence="false" stretchy="false">⟩<!-- ⟩ --></mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {Tr} (A)=\sum _{m}\langle m|A|m\rangle .}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/59ba5ba274c2794ce2d16dde3c7cfa8ba29c3aa2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.005ex; width:22.169ex; height:5.509ex;" alt="\operatorname {Tr}(A)=\sum _{{m}}\langle m|A|m\rangle ."></noscript><span class="lazy-image-placeholder" style="width: 22.169ex;height: 5.509ex;vertical-align: -3.005ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/59ba5ba274c2794ce2d16dde3c7cfa8ba29c3aa2" data-alt="\operatorname {Tr}(A)=\sum _{{m}}\langle m|A|m\rangle ." data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Density_matrix#Measurement" title="Density matrix">Density matrix § Measurement</a></div>
+</section><h2 class="section-heading" onclick="mfTempOpenSection(2)"><div class="mw-ui-icon mw-ui-icon-element indicator mw-ui-icon-small mw-ui-icon-flush-left mw-ui-button mw-ui-quiet"></div><span class="mw-headline" id="Von_Neumann_entropy">Von Neumann entropy</span><span class="mw-editsection"><a href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=2" title="Edit section: Von Neumann entropy" data-section="2" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 edit-page mw-ui-icon-flush-right mw-ui-button mw-ui-quiet">Edit</a></span></h2><section class="mf-section-2 collapsible-block" id="mf-section-2">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096"><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Von_Neumann_entropy" title="Von Neumann entropy">Von Neumann entropy</a></div>
+<p>Of particular significance for describing randomness of a state is the von Neumann entropy of <i>S</i> <i>formally</i> defined by
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {H} (S)=-\operatorname {Tr} (S\log _{2}S)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">H</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>S</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>S</mi>
+        <msub>
+          <mi>log</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mi>S</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {H} (S)=-\operatorname {Tr} (S\log _{2}S)}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/75c750cd51d3fb04bf467526a19a967d37703b44" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:22.543ex; height:2.843ex;" alt=" \operatorname{H}(S) = -\operatorname{Tr}(S \log_2 S) "></noscript><span class="lazy-image-placeholder" style="width: 22.543ex;height: 2.843ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/75c750cd51d3fb04bf467526a19a967d37703b44" data-alt=" \operatorname{H}(S) = -\operatorname{Tr}(S \log_2 S) " data-class="mwe-math-fallback-image-inline"> </span></span>.</dd></dl><p>Actually, the operator  <i>S</i> log<sub>2</sub> <i>S</i> is not necessarily trace-class. However, if <i>S</i> is a non-negative self-adjoint operator not of trace class we define Tr(<i>S</i>) = +∞.  Also note that any density operator <i>S</i> can be diagonalized, that it can be represented in some orthonormal basis by a (possibly infinite) matrix of the form
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle {\begin{bmatrix}\lambda _{1}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&amp;\lambda _{2}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&amp;\lambda _{n}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow>
+            <mo>[</mo>
+            <mtable rowspacing="4pt" columnspacing="1em">
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mi>λ<!-- λ --></mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>1</mn>
+                    </mrow>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mi>λ<!-- λ --></mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mn>2</mn>
+                    </mrow>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋱<!-- ⋱ --></mo>
+                </mtd>
+                <mtd></mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd></mtd>
+                <mtd>
+                  <msub>
+                    <mi>λ<!-- λ --></mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mi>n</mi>
+                    </mrow>
+                  </msub>
+                </mtd>
+                <mtd></mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd></mtd>
+                <mtd></mtd>
+                <mtd>
+                  <mo>⋱<!-- ⋱ --></mo>
+                </mtd>
+              </mtr>
+            </mtable>
+            <mo>]</mo>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\begin{bmatrix}\lambda _{1}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&amp;\lambda _{2}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&amp;\lambda _{n}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7e02b230d139acfea2db444ff988eaaabbeeb4e2" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -9.005ex; width:26.493ex; height:19.176ex;" alt="{\displaystyle {\begin{bmatrix}\lambda _{1}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&amp;\lambda _{2}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&amp;\lambda _{n}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}"></noscript><span class="lazy-image-placeholder" style="width: 26.493ex;height: 19.176ex;vertical-align: -9.005ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7e02b230d139acfea2db444ff988eaaabbeeb4e2" data-alt="{\displaystyle {\begin{bmatrix}\lambda _{1}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&amp;\lambda _{2}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&amp;\lambda _{n}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>and we define
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {H} (S)=-\sum _{i}\lambda _{i}\log _{2}\lambda _{i}.}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi mathvariant="normal">H</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>S</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo>−<!-- − --></mo>
+        <munder>
+          <mo>∑<!-- ∑ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </munder>
+        <msub>
+          <mi>λ<!-- λ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <msub>
+          <mi>log</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <msub>
+          <mi>λ<!-- λ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {H} (S)=-\sum _{i}\lambda _{i}\log _{2}\lambda _{i}.}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/de67301ce51d44b7040e9d88d653618d76f5f4ef" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.005ex; width:23.844ex; height:5.509ex;" alt=" \operatorname{H}(S) = - \sum_i \lambda_i \log_2 \lambda_i. "></noscript><span class="lazy-image-placeholder" style="width: 23.844ex;height: 5.509ex;vertical-align: -3.005ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/de67301ce51d44b7040e9d88d653618d76f5f4ef" data-alt=" \operatorname{H}(S) = - \sum_i \lambda_i \log_2 \lambda_i. " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>The convention is that <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \;0\log _{2}0=0}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mspace width="thickmathspace"></mspace>
+        <mn>0</mn>
+        <msub>
+          <mi>log</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mn>0</mn>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \;0\log _{2}0=0}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2a490cce942ab5715075114ac3e3178ef03742a0" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:12.031ex; height:2.676ex;" alt=" \; 0 \log_2 0 = 0"></noscript><span class="lazy-image-placeholder" style="width: 12.031ex;height: 2.676ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2a490cce942ab5715075114ac3e3178ef03742a0" data-alt=" \; 0 \log_2 0 = 0" data-class="mwe-math-fallback-image-inline"> </span></span>, since an event with probability zero should not contribute to the entropy. This value is an extended real number (that is in [0, ∞]) and this is clearly a unitary invariant of <i>S</i>.
+</p><p><b>Remark</b>. It is indeed possible that H(<i>S</i>) = +∞ for some density operator <i>S</i>. In fact <i>T</i> be the diagonal matrix
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle T={\begin{bmatrix}{\frac {1}{2(\log _{2}2)^{2}}}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&{\frac {1}{3(\log _{2}3)^{2}}}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&{\frac {1}{n(\log _{2}n)^{2}}}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>T</mi>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow>
+            <mo>[</mo>
+            <mtable rowspacing="4pt" columnspacing="1em">
+              <mtr>
+                <mtd>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mrow>
+                        <mn>2</mn>
+                        <mo stretchy="false">(</mo>
+                        <msub>
+                          <mi>log</mi>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn>2</mn>
+                          </mrow>
+                        </msub>
+                        <mo>⁡<!-- ⁡ --></mo>
+                        <mn>2</mn>
+                        <msup>
+                          <mo stretchy="false">)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn>2</mn>
+                          </mrow>
+                        </msup>
+                      </mrow>
+                    </mfrac>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mrow>
+                        <mn>3</mn>
+                        <mo stretchy="false">(</mo>
+                        <msub>
+                          <mi>log</mi>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn>2</mn>
+                          </mrow>
+                        </msub>
+                        <mo>⁡<!-- ⁡ --></mo>
+                        <mn>3</mn>
+                        <msup>
+                          <mo stretchy="false">)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn>2</mn>
+                          </mrow>
+                        </msup>
+                      </mrow>
+                    </mfrac>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋱<!-- ⋱ --></mo>
+                </mtd>
+                <mtd></mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd></mtd>
+                <mtd>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mrow>
+                        <mi>n</mi>
+                        <mo stretchy="false">(</mo>
+                        <msub>
+                          <mi>log</mi>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn>2</mn>
+                          </mrow>
+                        </msub>
+                        <mo>⁡<!-- ⁡ --></mo>
+                        <mi>n</mi>
+                        <msup>
+                          <mo stretchy="false">)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mn>2</mn>
+                          </mrow>
+                        </msup>
+                      </mrow>
+                    </mfrac>
+                  </mrow>
+                </mtd>
+                <mtd></mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd></mtd>
+                <mtd></mtd>
+                <mtd>
+                  <mo>⋱<!-- ⋱ --></mo>
+                </mtd>
+              </mtr>
+            </mtable>
+            <mo>]</mo>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle T={\begin{bmatrix}{\frac {1}{2(\log _{2}2)^{2}}}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&amp;{\frac {1}{3(\log _{2}3)^{2}}}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&amp;{\frac {1}{n(\log _{2}n)^{2}}}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1e08baf7d521d5b2b7efc8478b71c0e2524db57b" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -11.505ex; width:47.896ex; height:24.176ex;" alt="{\displaystyle T={\begin{bmatrix}{\frac {1}{2(\log _{2}2)^{2}}}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&{\frac {1}{3(\log _{2}3)^{2}}}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&{\frac {1}{n(\log _{2}n)^{2}}}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}"></noscript><span class="lazy-image-placeholder" style="width: 47.896ex;height: 24.176ex;vertical-align: -11.505ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1e08baf7d521d5b2b7efc8478b71c0e2524db57b" data-alt="{\displaystyle T={\begin{bmatrix}{\frac {1}{2(\log _{2}2)^{2}}}&amp;0&amp;\cdots &amp;0&amp;\cdots \\0&{\frac {1}{3(\log _{2}3)^{2}}}&amp;\cdots &amp;0&amp;\cdots \\\vdots &amp;\vdots &amp;\ddots &amp;\\0&amp;0&amp;&{\frac {1}{n(\log _{2}n)^{2}}}&amp;\\\vdots &amp;\vdots &amp;&amp;&amp;\ddots \end{bmatrix}}}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p><i>T</i> is non-negative trace class and one can show <i>T</i> log<sub>2</sub> <i>T</i> is not trace-class.
+</p><p><b>Theorem</b>.  Entropy is a unitary invariant.
+</p><p>In analogy with <a href="/wiki/Shannon_entropy#Formal_definitions" class="mw-redirect" title="Shannon entropy">classical entropy</a> (notice the similarity in the definitions), H(<i>S</i>) measures the amount of randomness in the state <i>S</i>. The more dispersed the eigenvalues are, the larger the system entropy. For a system in which the space <i>H</i> is finite-dimensional, entropy is maximized for the states <i>S</i> which in diagonal form have the representation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle {\begin{bmatrix}{\frac {1}{n}}&amp;0&amp;\cdots &amp;0\\0&{\frac {1}{n}}&amp;\dots &amp;0\\\vdots &amp;\vdots &amp;\ddots &amp;\vdots \\0&amp;0&amp;\cdots &{\frac {1}{n}}\end{bmatrix}}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow>
+            <mo>[</mo>
+            <mtable rowspacing="4pt" columnspacing="1em">
+              <mtr>
+                <mtd>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mi>n</mi>
+                    </mfrac>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mi>n</mi>
+                    </mfrac>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mo>…<!-- … --></mo>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋱<!-- ⋱ --></mo>
+                </mtd>
+                <mtd>
+                  <mo>⋮<!-- ⋮ --></mo>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mn>0</mn>
+                </mtd>
+                <mtd>
+                  <mo>⋯<!-- ⋯ --></mo>
+                </mtd>
+                <mtd>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mfrac>
+                      <mn>1</mn>
+                      <mi>n</mi>
+                    </mfrac>
+                  </mrow>
+                </mtd>
+              </mtr>
+            </mtable>
+            <mo>]</mo>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\begin{bmatrix}{\frac {1}{n}}&amp;0&amp;\cdots &amp;0\\0&amp;{\frac {1}{n}}&amp;\dots &amp;0\\\vdots &amp;\vdots &amp;\ddots &amp;\vdots \\0&amp;0&amp;\cdots &amp;{\frac {1}{n}}\end{bmatrix}}}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6195441faea0b6d7a83545b8f0ec65d55c63424f" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -7.505ex; width:19.266ex; height:16.176ex;" alt="{\displaystyle {\begin{bmatrix}{\frac {1}{n}}&amp;0&amp;\cdots &amp;0\\0&{\frac {1}{n}}&amp;\dots &amp;0\\\vdots &amp;\vdots &amp;\ddots &amp;\vdots \\0&amp;0&amp;\cdots &{\frac {1}{n}}\end{bmatrix}}}"></noscript><span class="lazy-image-placeholder" style="width: 19.266ex;height: 16.176ex;vertical-align: -7.505ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6195441faea0b6d7a83545b8f0ec65d55c63424f" data-alt="{\displaystyle {\begin{bmatrix}{\frac {1}{n}}&amp;0&amp;\cdots &amp;0\\0&{\frac {1}{n}}&amp;\dots &amp;0\\\vdots &amp;\vdots &amp;\ddots &amp;\vdots \\0&amp;0&amp;\cdots &{\frac {1}{n}}\end{bmatrix}}}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>For such an <i>S</i>, H(<i>S</i>) = log<sub>2</sub> <i>n</i>. The state <i>S</i> is called the maximally mixed state.
+</p><p>Recall that a <a href="/wiki/Pure_state" class="mw-redirect" title="Pure state">pure state</a> is one of the form 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle S=|\psi \rangle \langle \psi |,}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>S</mi>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mi>ψ<!-- ψ --></mi>
+        <mo fence="false" stretchy="false">⟩<!-- ⟩ --></mo>
+        <mo fence="false" stretchy="false">⟨<!-- ⟨ --></mo>
+        <mi>ψ<!-- ψ --></mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle S=|\psi \rangle \langle \psi |,}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b0fecd60f702b033df2f041a4d3356d9f270adde" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:11.374ex; height:2.843ex;" alt=" S = | \psi \rangle \langle \psi |, "></noscript><span class="lazy-image-placeholder" style="width: 11.374ex;height: 2.843ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b0fecd60f702b033df2f041a4d3356d9f270adde" data-alt=" S = | \psi \rangle \langle \psi |, " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>for ψ a vector of norm 1.
+</p><p><b>Theorem</b>.  H(<i>S</i>) = 0 if and only if <i>S</i> is a pure state.
+</p><p>For <i>S</i> is a pure state if and only if its diagonal form has exactly one non-zero entry which is a 1.
+</p><p>Entropy can be used as a measure of <a href="/wiki/Quantum_entanglement" title="Quantum entanglement">quantum entanglement</a>.
+</p>
+</section><h2 class="section-heading" onclick="mfTempOpenSection(3)"><div class="mw-ui-icon mw-ui-icon-element indicator mw-ui-icon-small mw-ui-icon-flush-left mw-ui-button mw-ui-quiet"></div><span class="mw-headline" id="Gibbs_canonical_ensemble">Gibbs canonical ensemble</span><span class="mw-editsection"><a href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=3" title="Edit section: Gibbs canonical ensemble" data-section="3" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 edit-page mw-ui-icon-flush-right mw-ui-button mw-ui-quiet">Edit</a></span></h2><section class="mf-section-3 collapsible-block" id="mf-section-3">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096"><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Canonical_ensemble" title="Canonical ensemble">canonical ensemble</a></div>
+<p>Consider an ensemble of systems described by a Hamiltonian <i>H</i> with average energy <i>E</i>.  If <i>H</i> has pure-point spectrum and the eigenvalues <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle E_{n}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>E</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle E_{n}}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ad6b82f2a00af6c9efd4c16d4e99329605645c0c" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:2.934ex; height:2.509ex;" alt="E_{n}"></noscript><span class="lazy-image-placeholder" style="width: 2.934ex;height: 2.509ex;vertical-align: -0.671ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ad6b82f2a00af6c9efd4c16d4e99329605645c0c" data-alt="E_{n}" data-class="mwe-math-fallback-image-inline"> </span></span> of <i>H</i> go to +∞ sufficiently fast, e<sup>−<i>r H</i></sup> will be a non-negative trace-class operator for every positive <i>r</i>.
+</p><p>The <i><a href="/wiki/Gibbs_canonical_ensemble" class="mw-redirect" title="Gibbs canonical ensemble">Gibbs canonical ensemble</a></i> is described by the state 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle S={\frac {\mathrm {e} ^{-\beta H}}{\operatorname {Tr} (\mathrm {e} ^{-\beta H})}}.}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>S</mi>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <msup>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="normal">e</mi>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo>−<!-- − --></mo>
+                <mi>β<!-- β --></mi>
+                <mi>H</mi>
+              </mrow>
+            </msup>
+            <mrow>
+              <mi>Tr</mi>
+              <mo>⁡<!-- ⁡ --></mo>
+              <mo stretchy="false">(</mo>
+              <msup>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi mathvariant="normal">e</mi>
+                </mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mo>−<!-- − --></mo>
+                  <mi>β<!-- β --></mi>
+                  <mi>H</mi>
+                </mrow>
+              </msup>
+              <mo stretchy="false">)</mo>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle S={\frac {\mathrm {e} ^{-\beta H}}{\operatorname {Tr} (\mathrm {e} ^{-\beta H})}}.}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e81a05d4168b3616428720fde49db5756011ae8e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:15.424ex; height:6.509ex;" alt="{\displaystyle S={\frac {\mathrm {e} ^{-\beta H}}{\operatorname {Tr} (\mathrm {e} ^{-\beta H})}}.}"></noscript><span class="lazy-image-placeholder" style="width: 15.424ex;height: 6.509ex;vertical-align: -2.671ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e81a05d4168b3616428720fde49db5756011ae8e" data-alt="{\displaystyle S={\frac {\mathrm {e} ^{-\beta H}}{\operatorname {Tr} (\mathrm {e} ^{-\beta H})}}.}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>Where β is such that the ensemble average of energy satisfies  
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {Tr} (SH)=E}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>S</mi>
+        <mi>H</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>E</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {Tr} (SH)=E}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eb9a45ce8de9a744eb9b3371e39674d177cebed9" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:12.836ex; height:2.843ex;" alt=" \operatorname{Tr}(S H) = E "></noscript><span class="lazy-image-placeholder" style="width: 12.836ex;height: 2.843ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eb9a45ce8de9a744eb9b3371e39674d177cebed9" data-alt=" \operatorname{Tr}(S H) = E " data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>and
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \operatorname {Tr} (\mathrm {e} ^{-\beta H})=\sum _{n}\mathrm {e} ^{-\beta E_{n}}=Z(\beta )}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <msup>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="normal">e</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mi>β<!-- β --></mi>
+            <mi>H</mi>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <munder>
+          <mo>∑<!-- ∑ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </munder>
+        <msup>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="normal">e</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mo>−<!-- − --></mo>
+            <mi>β<!-- β --></mi>
+            <msub>
+              <mi>E</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>n</mi>
+              </mrow>
+            </msub>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mi>Z</mi>
+        <mo stretchy="false">(</mo>
+        <mi>β<!-- β --></mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {Tr} (\mathrm {e} ^{-\beta H})=\sum _{n}\mathrm {e} ^{-\beta E_{n}}=Z(\beta )}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f70c5cfd6bc0dee4ae299cbb193259d0bd7a3c0d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.005ex; width:29.767ex; height:5.509ex;" alt="{\displaystyle \operatorname {Tr} (\mathrm {e} ^{-\beta H})=\sum _{n}\mathrm {e} ^{-\beta E_{n}}=Z(\beta )}"></noscript><span class="lazy-image-placeholder" style="width: 29.767ex;height: 5.509ex;vertical-align: -3.005ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f70c5cfd6bc0dee4ae299cbb193259d0bd7a3c0d" data-alt="{\displaystyle \operatorname {Tr} (\mathrm {e} ^{-\beta H})=\sum _{n}\mathrm {e} ^{-\beta E_{n}}=Z(\beta )}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>This is called the <a href="/wiki/Partition_function_(mathematics)" title="Partition function (mathematics)">partition function</a>; it is the quantum mechanical version of the <a href="/wiki/Canonical_partition_function" class="mw-redirect" title="Canonical partition function">canonical partition function</a> of classical statistical mechanics. The probability that a system chosen at random from the ensemble will be in a state corresponding to energy eigenvalue <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle E_{m}}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>E</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>m</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle E_{m}}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3e2d5aa67bc4c46dfb5f6a1d674998ee81063a14" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:3.39ex; height:2.509ex;" alt="E_{m}"></noscript><span class="lazy-image-placeholder" style="width: 3.39ex;height: 2.509ex;vertical-align: -0.671ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3e2d5aa67bc4c46dfb5f6a1d674998ee81063a14" data-alt="E_{m}" data-class="mwe-math-fallback-image-inline"> </span></span> is
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle {\mathcal {P}}(E_{m})={\frac {\mathrm {e} ^{-\beta E_{m}}}{\sum _{n}\mathrm {e} ^{-\beta E_{n}}}}.}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">P</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>E</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>m</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <msup>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="normal">e</mi>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mo>−<!-- − --></mo>
+                <mi>β<!-- β --></mi>
+                <msub>
+                  <mi>E</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>m</mi>
+                  </mrow>
+                </msub>
+              </mrow>
+            </msup>
+            <mrow>
+              <munder>
+                <mo>∑<!-- ∑ --></mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi>n</mi>
+                </mrow>
+              </munder>
+              <msup>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mi mathvariant="normal">e</mi>
+                </mrow>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mo>−<!-- − --></mo>
+                  <mi>β<!-- β --></mi>
+                  <msub>
+                    <mi>E</mi>
+                    <mrow class="MJX-TeXAtom-ORD">
+                      <mi>n</mi>
+                    </mrow>
+                  </msub>
+                </mrow>
+              </msup>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\mathcal {P}}(E_{m})={\frac {\mathrm {e} ^{-\beta E_{m}}}{\sum _{n}\mathrm {e} ^{-\beta E_{n}}}}.}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d9c29793aeeea2cfe6a4aa207ba79fee82082205" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.838ex; width:21.207ex; height:6.676ex;" alt="{\displaystyle {\mathcal {P}}(E_{m})={\frac {\mathrm {e} ^{-\beta E_{m}}}{\sum _{n}\mathrm {e} ^{-\beta E_{n}}}}.}"></noscript><span class="lazy-image-placeholder" style="width: 21.207ex;height: 6.676ex;vertical-align: -2.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d9c29793aeeea2cfe6a4aa207ba79fee82082205" data-alt="{\displaystyle {\mathcal {P}}(E_{m})={\frac {\mathrm {e} ^{-\beta E_{m}}}{\sum _{n}\mathrm {e} ^{-\beta E_{n}}}}.}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>Under certain conditions, the Gibbs canonical ensemble maximizes the von Neumann entropy of the state subject to the energy conservation requirement.<sup class="noprint Inline-Template" style="margin-left:0.1em; white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="How so? This ensemble spans over many energies, so what does 'energy conservation' refer to? (September 2013)">clarification needed</span></a></i>]</sup></p>
+</section><h2 class="section-heading" onclick="mfTempOpenSection(4)"><div class="mw-ui-icon mw-ui-icon-element indicator mw-ui-icon-small mw-ui-icon-flush-left mw-ui-button mw-ui-quiet"></div><span class="mw-headline" id="Grand_canonical_ensemble">Grand canonical ensemble</span><span class="mw-editsection"><a href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=4" title="Edit section: Grand canonical ensemble" data-section="4" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 edit-page mw-ui-icon-flush-right mw-ui-button mw-ui-quiet">Edit</a></span></h2><section class="mf-section-4 collapsible-block" id="mf-section-4">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096"><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Grand_canonical_ensemble" title="Grand canonical ensemble">grand canonical ensemble</a></div>
+<p>For open systems where the energy and numbers of particles may fluctuate, the system is described by the <a href="/wiki/Grand_canonical_ensemble" title="Grand canonical ensemble">grand canonical ensemble</a>, described by the density matrix
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle \rho ={\frac {\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}}{\operatorname {Tr} \left(\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}\right)}}.}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>ρ<!-- ρ --></mi>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mfrac>
+            <msup>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi mathvariant="normal">e</mi>
+              </mrow>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>β<!-- β --></mi>
+                <mo stretchy="false">(</mo>
+                <munder>
+                  <mo>∑<!-- ∑ --></mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                  </mrow>
+                </munder>
+                <msub>
+                  <mi>μ<!-- μ --></mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                  </mrow>
+                </msub>
+                <msub>
+                  <mi>N</mi>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>i</mi>
+                  </mrow>
+                </msub>
+                <mo>−<!-- − --></mo>
+                <mi>H</mi>
+                <mo stretchy="false">)</mo>
+              </mrow>
+            </msup>
+            <mrow>
+              <mi>Tr</mi>
+              <mo>⁡<!-- ⁡ --></mo>
+              <mrow>
+                <mo>(</mo>
+                <msup>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi mathvariant="normal">e</mi>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>β<!-- β --></mi>
+                    <mo stretchy="false">(</mo>
+                    <munder>
+                      <mo>∑<!-- ∑ --></mo>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mi>i</mi>
+                      </mrow>
+                    </munder>
+                    <msub>
+                      <mi>μ<!-- μ --></mi>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mi>i</mi>
+                      </mrow>
+                    </msub>
+                    <msub>
+                      <mi>N</mi>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mi>i</mi>
+                      </mrow>
+                    </msub>
+                    <mo>−<!-- − --></mo>
+                    <mi>H</mi>
+                    <mo stretchy="false">)</mo>
+                  </mrow>
+                </msup>
+                <mo>)</mo>
+              </mrow>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \rho ={\frac {\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}}{\operatorname {Tr} \left(\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}\right)}}.}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6aaf9d4c816f7b7700b154f5161f408dc8c25e14" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.171ex; width:23.034ex; height:7.009ex;" alt="{\displaystyle \rho ={\frac {\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}}{\operatorname {Tr} \left(\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}\right)}}.}"></noscript><span class="lazy-image-placeholder" style="width: 23.034ex;height: 7.009ex;vertical-align: -3.171ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6aaf9d4c816f7b7700b154f5161f408dc8c25e14" data-alt="{\displaystyle \rho ={\frac {\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}}{\operatorname {Tr} \left(\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)}\right)}}.}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl><p>where the <i>N</i><sub>1</sub>, <i>N</i><sub>2</sub>, ... are the particle number operators for the different species of particles that are exchanged with the reservoir. Note that this is a density matrix including many more states (of varying N) compared to the canonical ensemble.
+</p><p>The grand partition function is
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle {\mathcal {Z}}(\beta ,\mu _{1},\mu _{2},\cdots )=\operatorname {Tr} (\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)})}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">Z</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>β<!-- β --></mi>
+        <mo>,</mo>
+        <msub>
+          <mi>μ<!-- μ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+          <mi>μ<!-- μ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mo>⋯<!-- ⋯ --></mo>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>Tr</mi>
+        <mo>⁡<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <msup>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="normal">e</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>β<!-- β --></mi>
+            <mo stretchy="false">(</mo>
+            <munder>
+              <mo>∑<!-- ∑ --></mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>i</mi>
+              </mrow>
+            </munder>
+            <msub>
+              <mi>μ<!-- μ --></mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>i</mi>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>N</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>i</mi>
+              </mrow>
+            </msub>
+            <mo>−<!-- − --></mo>
+            <mi>H</mi>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\mathcal {Z}}(\beta ,\mu _{1},\mu _{2},\cdots )=\operatorname {Tr} (\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)})}</annotation>
+  </semantics></math></span><noscript><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af004caef45923f2db793b937e3774e95afc11af" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:35.69ex; height:3.343ex;" alt="{\displaystyle {\mathcal {Z}}(\beta ,\mu _{1},\mu _{2},\cdots )=\operatorname {Tr} (\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)})}"></noscript><span class="lazy-image-placeholder" style="width: 35.69ex;height: 3.343ex;vertical-align: -0.838ex;" data-src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af004caef45923f2db793b937e3774e95afc11af" data-alt="{\displaystyle {\mathcal {Z}}(\beta ,\mu _{1},\mu _{2},\cdots )=\operatorname {Tr} (\mathrm {e} ^{\beta (\sum _{i}\mu _{i}N_{i}-H)})}" data-class="mwe-math-fallback-image-inline"> </span></span></dd></dl></section><h2 class="section-heading" onclick="mfTempOpenSection(5)"><div class="mw-ui-icon mw-ui-icon-element indicator mw-ui-icon-small mw-ui-icon-flush-left mw-ui-button mw-ui-quiet"></div><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><a href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=5" title="Edit section: See also" data-section="5" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 edit-page mw-ui-icon-flush-right mw-ui-button mw-ui-quiet">Edit</a></span></h2><section class="mf-section-5 collapsible-block" id="mf-section-5">
+<ul><li><a href="/wiki/Quantum_thermodynamics" title="Quantum thermodynamics">Quantum thermodynamics</a></li>
+<li><a href="/wiki/Thermal_quantum_field_theory" title="Thermal quantum field theory">Thermal quantum field theory</a></li></ul></section><h2 class="section-heading" onclick="mfTempOpenSection(6)"><div class="mw-ui-icon mw-ui-icon-element indicator mw-ui-icon-small mw-ui-icon-flush-left mw-ui-button mw-ui-quiet"></div><span class="mw-headline" id="References">References</span><span class="mw-editsection"><a href="/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit&amp;section=6" title="Edit section: References" data-section="6" class="mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-edit-base20 edit-page mw-ui-icon-flush-right mw-ui-button mw-ui-quiet">Edit</a></span></h2><section class="mf-section-6 collapsible-block" id="mf-section-6">
+<ul><li>J. von Neumann, <i>Mathematical Foundations of Quantum Mechanics</i>, <a href="/wiki/Princeton_University_Press" title="Princeton University Press">Princeton University Press</a>, 1955.</li>
+<li>F. Reif, <i>Statistical and Thermal Physics</i>, McGraw-Hill,  1965.</li></ul>
+
+<style data-mw-deduplicate="TemplateStyles:r1012311289">.mw-parser-output .asbox{position:relative;overflow:hidden}.mw-parser-output .asbox table{background:transparent}.mw-parser-output .asbox p{margin:0}.mw-parser-output .asbox p+p{margin-top:0.25em}.mw-parser-output .asbox-body{font-style:italic}.mw-parser-output .asbox-note{font-size:smaller}.mw-parser-output .asbox .navbar{position:absolute;top:-0.75em;right:1em;display:none}</style><div role="note" class="metadata plainlinks asbox stub"><table role="presentation"><tbody><tr class="noresize"><td><a href="/wiki/File:Hydrogen300.png" class="image"><noscript><img alt="Stub icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Hydrogen300.png/30px-Hydrogen300.png" decoding="async" width="30" height="30" data-file-width="360" data-file-height="360"></noscript><span class="lazy-image-placeholder" style="width: 30px;height: 30px;" data-src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Hydrogen300.png/30px-Hydrogen300.png" data-alt="Stub icon" data-width="30" data-height="30"> </span></a></td><td><p class="asbox-body">This <a href="/wiki/Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a>-related article is a <a href="/wiki/Wikipedia:Stub" title="Wikipedia:Stub">stub</a>. You can help Wikipedia by <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Quantum_statistical_mechanics&amp;action=edit">expanding it</a>.</p></td></tr></tbody></table><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1063604349"><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Quantum-stub" title="Template:Quantum-stub"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Quantum-stub" title="Template talk:Quantum-stub"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Quantum-stub&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li></ul></div></div>
+<!-- 
+NewPP limit report
+Parsed by mw1364
+Cached time: 20221111113356
+Cache expiry: 21600
+Reduced expiry: true
+Complications: [show‐toc]
+CPU time usage: 0.338 seconds
+Real time usage: 0.496 seconds
+Preprocessor visited node count: 1075/1000000
+Post‐expand include size: 86319/2097152 bytes
+Template argument size: 1158/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 9/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 15363/5000000 bytes
+Lua time usage: 0.140/10.000 seconds
+Lua memory usage: 3051751/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  286.916      1 -total
+ 23.58%   67.648      2 Template:Sidebar_with_collapsible_lists
+ 21.36%   61.280      1 Template:Short_description
+ 21.26%   60.992      1 Template:Modern_physics
+ 14.58%   41.828      1 Template:Quantum_mechanics_topics
+ 13.78%   39.539      1 Template:Navbox
+ 11.66%   33.452      1 Template:Clarify
+ 11.37%   32.631      1 Template:Authority_control
+ 10.73%   30.794      2 Template:Pagetype
+ 10.14%   29.091      1 Template:Fix-span
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:712450-0!canonical!responsiveimages=0 and timestamp 20221111113355 and revision id 1082997507.
+ -->
+</section></div>
+<!-- MobileFormatter took 0.020 seconds --><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1&amp;mobile=1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Quantum_statistical_mechanics&amp;oldid=1082997507">https://en.wikipedia.org/w/index.php?title=Quantum_statistical_mechanics&amp;oldid=1082997507</a>"</div></div>
+				
+			</div>
+			<div class="post-content" id="page-secondary-actions">
+			</div>
+		</main>
+		<footer class="mw-footer minerva-footer" role="contentinfo">
+		  <a class="last-modified-bar" href="/wiki/Special:History/Quantum_statistical_mechanics">
+  	<div class="post-content last-modified-bar__content">
+  		<span class="last-modified-bar__icon mw-ui-icon mw-ui-icon-mw-ui-icon-small mw-ui-icon-wikimedia-history-base20 "></span>
+  		<span class="last-modified-bar__text modified-enhancement"
+  				data-user-name="OpenScience709"
+  				data-user-gender="unknown"
+  				data-timestamp="1650105358">
+  				<span>Last edited on 16 April 2022, at 10:35</span>
+  		</span>
+  		<span class="mw-ui-icon mw-ui-icon-small mw-ui-icon-mf-expand-gray mf-mw-ui-icon-rotate-anti-clockwise indicator"></span>
+  	</div>
+  </a>
+	<div class="post-content footer-content">
+			<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+			<div class="minerva-footer-logo"><img src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="Wikipedia" width="120" height="18"
+	style="width: 7.5em; height: 1.125em;"/>
+
+</div>
+			<ul id="footer-info" class="footer-info hlist hlist-separated">
+	<li id="footer-info-lastmod"> This page was last edited on 16 April 2022, at 10:35<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> unless otherwise noted.</li>
+</ul>
+
+			<ul id="footer-places" class="footer-places hlist hlist-separated">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-terms-use"><a href="//m.wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a></li>
+	<li id="footer-places-desktop-toggle"><a id="mw-mf-display-toggle" href="//en.wikipedia.org/w/index.php?title=Quantum_statistical_mechanics&amp;mobileaction=toggle_view_desktop" data-event-name="switch_to_desktop">Desktop</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+
+			</div>
+		</footer>
+			</div>
+</div>
+<div class="mw-notification-area" data-mw="interface"></div>
+<!-- v:8.3.1 -->
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.338","walltime":"0.496","ppvisitednodes":{"value":1075,"limit":1000000},"postexpandincludesize":{"value":86319,"limit":2097152},"templateargumentsize":{"value":1158,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":9,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":15363,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  286.916      1 -total"," 23.58%   67.648      2 Template:Sidebar_with_collapsible_lists"," 21.36%   61.280      1 Template:Short_description"," 21.26%   60.992      1 Template:Modern_physics"," 14.58%   41.828      1 Template:Quantum_mechanics_topics"," 13.78%   39.539      1 Template:Navbox"," 11.66%   33.452      1 Template:Clarify"," 11.37%   32.631      1 Template:Authority_control"," 10.73%   30.794      2 Template:Pagetype"," 10.14%   29.091      1 Template:Fix-span"]},"scribunto":{"limitreport-timeusage":{"value":"0.140","limit":"10.000"},"limitreport-memusage":{"value":3051751,"limit":52428800}},"cachereport":{"origin":"mw1364","timestamp":"20221111113356","ttl":21600,"transientcontent":true}}});});</script>
+<script>(window.NORLQ=window.NORLQ||[]).push(function(){var ns,i,p,img;ns=document.getElementsByTagName('noscript');for(i=0;i<ns.length;i++){p=ns[i].nextSibling;if(p&&p.className&&p.className.indexOf('lazy-image-placeholder')>-1){img=document.createElement('img');img.setAttribute('src',p.getAttribute('data-src'));img.setAttribute('width',p.getAttribute('data-width'));img.setAttribute('height',p.getAttribute('data-height'));img.setAttribute('alt',p.getAttribute('data-alt'));p.parentNode.replaceChild(img,p);}}});</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Quantum statistical mechanics","url":"https:\/\/en.wikipedia.org\/wiki\/Quantum_statistical_mechanics","sameAs":"http:\/\/www.wikidata.org\/entity\/Q845260","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q845260","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-06-09T18:54:48Z","dateModified":"2022-04-16T10:35:58Z","headline":"statistical mechanics of quantum-mechanical systems"}</script><script>(window.NORLQ=window.NORLQ||[]).push(function(){var ns,i,p,img;ns=document.getElementsByTagName('noscript');for(i=0;i<ns.length;i++){p=ns[i].nextSibling;if(p&&p.className&&p.className.indexOf('lazy-image-placeholder')>-1){img=document.createElement('img');img.setAttribute('src',p.getAttribute('data-src'));img.setAttribute('width',p.getAttribute('data-width'));img.setAttribute('height',p.getAttribute('data-height'));img.setAttribute('alt',p.getAttribute('data-alt'));p.parentNode.replaceChild(img,p);}}});</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Quantum statistical mechanics","url":"https:\/\/en.wikipedia.org\/wiki\/Quantum_statistical_mechanics","sameAs":"http:\/\/www.wikidata.org\/entity\/Q845260","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q845260","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-06-09T18:54:48Z","dateModified":"2022-04-16T10:35:58Z","headline":"statistical mechanics of quantum-mechanical systems"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":659,"wgHostname":"mw1364"});});</script>
+</body>
+</html>
